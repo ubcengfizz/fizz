@@ -5,8 +5,7 @@ import PageTemplate from '../../../Global/PageTemplate';
 import "./FilmFeust.css"
 import '../../../Global/style2.css';
 
-// TODO: Make a YT Video Component by following this: https://stackoverflow.com/questions/52324664/how-to-use-iframe-in-react-js/52325099
-// Or by following this: https://coderrocketfuel.com/article/embed-a-youtube-video-in-a-react-webpage
+// The component I used: https://www.npmjs.com/package/react-iframe
 class FilmFeust extends Component {
     render() {
         return (
@@ -43,7 +42,18 @@ class FilmFeust extends Component {
                         display="initial"
                         position="relative"
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"/>
-                    
+
+                    <div className="filmtitle"> 2021 Ball Model (1st Place)</div>
+                    <Iframe url="https://www.youtube.com/embed/lLA7zK59G3o"
+                        width="95%"
+                        height="500"
+                        id="myId"
+                        allowFullScreen="true"
+                        className="Playlist"
+                        display="initial"
+                        position="relative"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"/>
+
                     <div></div>
                     <a className='btn btn-light action-button' href="https://www.youtube.com/playlist?list=PLFGt58bRG-WROI5Sj6zZ2NiOI6Q5wWSMV" target="_blank">Check out all the other videos here</a>
     </div>    </PageTemplate>
