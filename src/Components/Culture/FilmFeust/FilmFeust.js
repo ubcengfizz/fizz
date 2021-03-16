@@ -29,7 +29,8 @@ class FilmFeust extends Component {
                         allowFullScreen="true"
                         className="Playlist"
                         display="initial"
-                        position="relative"/>
+                        position="relative"
+                        frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"/>
 
 
                     <div className="filmtitle"> 2021 FilmfEUSt (1st Place)</div>
@@ -41,7 +42,7 @@ class FilmFeust extends Component {
                         className="Playlist"
                         display="initial"
                         position="relative"
-                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"/>
+                        frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"/>
 
                     <div className="filmtitle"> 2021 Ball Model (1st Place)</div>
                     <Iframe url="https://www.youtube.com/embed/lLA7zK59G3o"
@@ -52,7 +53,7 @@ class FilmFeust extends Component {
                         className="Playlist"
                         display="initial"
                         position="relative"
-                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"/>
+                        frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"/>
 
                     <div></div>
                     <a className='btn btn-light action-button' href="https://www.youtube.com/playlist?list=PLFGt58bRG-WROI5Sj6zZ2NiOI6Q5wWSMV" target="_blank">Check out all the other videos here</a>

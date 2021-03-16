@@ -14,6 +14,7 @@
     "react-scripts": "^4.0.3",
     "react-scroll-horizontal": "^1.5.1",
     "react-stack-grid": "^0.7.1",
+    "reactjs-popup": "^2.0.4",
     "save-dev": "0.0.1-security"
   },
   "homepage": "http://ubcengfizz.github.io",

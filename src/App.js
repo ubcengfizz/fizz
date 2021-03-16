@@ -15,6 +15,7 @@ import Podcast from './Components/Culture/Podcast/Podcast';
 import Film from './Components/Culture/FilmFeust/FilmFeust';
 import Survive from './Components/Services/Survive'
 import Constitution from './Components/Admin/Constitution/Constitution'
+import Course from './Components/Services/Course_Dir/Courses'
 
 // TODO: fix the routing for podcast, survive, film, and add routing for missing pages
 class App extends Component {
@@ -31,6 +32,7 @@ class App extends Component {
                         <Route path="/Podcast" component={Podcast}/>
                         <Route path="/FilmFeust" component={Film}/>
                         <Route path="/Survive" component={Survive}/> 
+                        <Route path="/Course" component={Course}/>
                         {/*<Route path="/Constitution" component={Constitution}/> */}
                         <Route component={About}/>
                     </Switch>

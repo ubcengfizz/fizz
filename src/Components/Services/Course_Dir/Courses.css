@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300i');
+
+/** Question Styles **/
+
+.cd .title {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 3px;
+    font-size: 2em;
+    color: #4b4343;
+}
+
+.filmtitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #4b4343;
+}
+
+.content {
+    margin-top: 20px;
+    font-family: 'Raleway';
+    font-size: 1.07em;
+    margin-right: 40px;
+}
+
+.cd {
+    width: 100%;
+    margin: 20px 3%;
+}
+
+.btn{
+    font-family: 'Raleway';
+}
+
+.modal {
+    font-size: 1.5em;
+}
+.modal > .header {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px;
+}
+.modal > .content {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    padding: 10px 5px;
+}
+.modal > .actions {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.course {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+.modal > .close {
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+@media only screen and (max-width: 1000px) {
+    .title {
+        font-size: 4vw;
+    }
+
+    .content {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .title {
+        font-size: 100;
+    }
+
+    .qa {
+        width: 90%;
+        margin: 20px 6%;
+    }
+
+    .content {
+        font-size: 3.5vw;
+    }
+}
