@@ -1,0 +1,41 @@
+
+
+.toggle-button {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 6vh;
+  width: 50px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.toggle-button:hover {
+  cursor: pointer;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.line {
+width: 50px;
+border: 0;
+border-bottom: 3px solid #DB4949;
+border-radius: 10px;}
+
+@media (min-width: 1120px) {
+  .toggle-button {
+    display: none;
+  }
+}

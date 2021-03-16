@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:700,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300i');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #F8F8F8;
+  z-index: 500;
+  overflow: hidden;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+.description {
+  width: 70%;
+  margin-top: 20px;
+  font-family: 'Raleway';
+  font-size: 1.05em;
+}
+
+
+.text {
+  width: 90%;
+  margin-left: 6%;
+  color: #4B4343;
+}
+
+.component-header {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.component-title {
+  font-size: 1.3em;
+}
+
+hr {
+border-top: 1px solid #4B4343;
+}
+
+/** People Styles */
+
+.person {
+  margin-top: 20px;
+}
+
+.title, .name, .email {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 3px;
+}
+
+.title {
+  font-weight: 300;
+}
+
+.name {
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+.email {
+  font-size: 1.3em;
+  font-weight: 300;
+  font-style: italic;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  .person .title {
+    font-size: 4vw;
+  }
+    .description {
+    font-size: 2vw;    }
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .component-title {
+    font-size: 1em;
+  }
+  .person .title {
+    font-size: 5vw;
+  }
+
+  .person .name {
+    font-size: 4vw;
+  }
+
+  .person .email {
+    font-size: 4vw;
+  }
+
+    .description {
+    font-size: 3.5vw;    }
+}

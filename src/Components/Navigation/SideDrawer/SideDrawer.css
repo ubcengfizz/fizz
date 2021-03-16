@@ -1,0 +1,44 @@
+.side-drawer {
+  height: 100%;
+  background: white;
+  z-index: 200;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  top: 10vh;
+  max-width: 400px;
+  font-family: 'Raleway';
+  font-size: 1.4em;
+  font-weight: 300;
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  -o-transition: transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.side-drawer.open {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.menu-header {
+  font-size: 0.9em;
+  color: #474b51;
+  background-color: white;
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+@media (min-width: 1120px) {
+  .side-drawer {
+  display: none;
+}
+
+}
