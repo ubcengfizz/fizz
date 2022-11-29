@@ -89,6 +89,19 @@ class NavBar extends Component {
                            
                                 </div>
                                 <ul className="dropdown">
+                                    
+                                    <li>
+                                    <NavLink to="/Course" className="dropdown-item" activeClassName="dropdown-item">
+                                        Course Review Guide
+                                    </NavLink>
+                                    </li>
+
+                                    <li>
+                                    <NavLink to="/Survive" className="dropdown-item" activeClassName="dropdown-item">
+                                        Fizz Survival Guide
+                                    </NavLink>
+                                    </li>
+
                                     <li>
                                     <a href="https://www.redbubble.com/people/ubcfizz/shop" target="_blank" className="dropdown-item" activeClassName="dropdown-item">
                                         Merchandise
@@ -101,17 +114,6 @@ class NavBar extends Component {
                                     </NavLink>
                                     </li>
 
-                                    {/* <li>
-                                    <NavLink to="/Course" className="dropdown-item" activeClassName="dropdown-item">
-                                        Course Directory
-                                    </NavLink>
-                                    </li> */}
-
-                                    <li>
-                                    <NavLink to="/Survive" className="dropdown-item" activeClassName="dropdown-item">
-                                        Fizz Survival Guide
-                                    </NavLink>
-                                    </li>
                                 </ul>
                             </li>
 
