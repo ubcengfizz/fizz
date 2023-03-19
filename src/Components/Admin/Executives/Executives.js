@@ -55,7 +55,7 @@ class Executives extends Component {
 
                 <Person 
                     title="IT Manager" 
-                    name="Jackson Fraser, Hod Kimhi"
+                    name="Jackson Fraser"
                     email="itmanager"
                     //img = "http://placekitten.com/200/300"
                     description="The IT manager is responsible for maintaining the Penthouse computers, wireless access and printers. They also update and oversee the ubcfizz.com website and mailing lists."
